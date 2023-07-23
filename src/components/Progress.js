@@ -14,11 +14,11 @@ export default function Progress({
         <strong>
           {index + 1} / {numQuestions}
         </strong>
-        <p>
-          <strong>
-            {points} / {maxPossiblePoints}
-          </strong>
-        </p>
+      </p>
+      <p>
+        <strong>
+          {points} / {maxPossiblePoints}
+        </strong>
       </p>
     </header>
   );
